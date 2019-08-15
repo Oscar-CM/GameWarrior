@@ -1,6 +1,5 @@
-# APP NAME
+# GAME WARRIOR
 
-## Branjo's Pitch
 
 # AUTHOR
 ## Branjo
@@ -42,6 +41,5 @@ This is an application that you are able to to see used games either to sell or 
 * Python3.6
 * flask
 
-`
 # Support and Contacts
 https://github.com/njorogebrian
