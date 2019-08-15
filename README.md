@@ -3,19 +3,22 @@
 ## Branjo's Pitch
 
 # AUTHOR
-# brian njoroge
-#
+## Branjo
+## Dickson 
+## James 
+## oscar
+## ian
 
 # DESCRIPTION
 
-This is an app that allows users to create,submit,vote pitches based on categories
+This is an application that you are able to to see used games either to sell or buy
 
 #### User Stories
 
-* A users can see pitches that other people have posted
-* A user can vote on posted pitches with either a down or an up vote
-* A user can comment on different pitches and leave feedback
-* A user can submit a pitch in any category
+* A user can log in
+* Toggle through diffrent games 
+* A user can comment on different games and leave feedback
+* A user can submit 
 * A user can submit to different categories
 
 
@@ -38,6 +41,7 @@ This is an app that allows users to create,submit,vote pitches based on categori
 * Bootstrap 
 * Python3.6
 * flask
+
 `
 # Support and Contacts
 https://github.com/njorogebrian
