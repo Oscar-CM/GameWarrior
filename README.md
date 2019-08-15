@@ -25,14 +25,13 @@ This is an app that allows users to create,submit,vote pitches based on categori
 ## Installation steps 
 * $ git clone 
 * $ cd IP-Pitch
-* $ source virtual/bin/activate
-* Inside the manage.py module change the config_name parameter from 'production' to 'development' ie app = create_app('production') should be app = create_app('development')
-* $ ./start.sh 
+* $ python3.6 manage.py server
+* 
 
 # How it works
 
 * A user needs to sign up
-* A user the needs to login in order to create,vote and post pitches.
+* when you login you will be able to access other specifications
 
 # Technologies Used
 * HTML5/CSS 
