@@ -96,7 +96,16 @@ def new_post():
         return redirect (url_for('home'))
     return render_template('create_post.html', form = form) 
 
-@app.route("/review")
-
+@app.route("/review", methods = ['GET', 'POST'])
+@login_required
 def review():
-    return render_template('login.html')
+   
+    return render_template('review.html')
+
+@app.route("/contact", methods = ['GET', 'POST'])
+@login_required
+def contact():
+   
+    return render_template('contact.html')
+
+

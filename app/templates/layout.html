@@ -58,10 +58,10 @@
 			<nav class="main-menu">
 				<ul>
 					<li><a href="index.html">Home</a></li>
-					<li><a href="review.html">Games</a></li>
+					<li><a href="{{url_for('review')}}">Games</a></li>
 					<li><a href="categories.html">Blog</a></li>
 					<li><a href="community.html">Forums</a></li>
-					<li><a href="contact.html">Contact</a></li>
+					<li><a href="{{url_for('contact')}}">Contact</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -71,10 +71,10 @@
 		<div class="container">
 			<ul class="footer-menu">
 				<li><a href="index.html">Home</a></li>
-				<li><a href="review.html">Games</a></li>
+				<li><a href="{{url_for('review')}}">Games</a></li>
 				<li><a href="categories.html">Blog</a></li>
 				<li><a href="community.html">Forums</a></li>
-				<li><a href="contact.html">Contact</a></li>
+				<li><a href="{{url_for('contact')}}">Contact</a></li>
 			</ul>
 			<p class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Application made by Moringa Students
@@ -90,5 +90,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	<script src="static/js/owl.carousel.min.js"></script>
 	<script src="static/js/jquery.marquee.min.js"></script>
 	<script src="static/js/main.js"></script>
+
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCWTIlluowDL-X4HbYQt3aDw_oi2JP0Krc&sensor=false"></script>
+	<script src="static/js/map.js"></script>
     </body>
 </html>
